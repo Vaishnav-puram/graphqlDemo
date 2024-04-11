@@ -59,4 +59,12 @@ public class User {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
+    }
 }
