@@ -26,6 +26,6 @@ type Query{
 type Mutation{
     createUser(name:String,email:String,password:String,mobile:String):User
     deleteUser(userID:Int):Boolean
-    createOrder(orderDetails:String,address:String,price:Int):Order
+    createOrder(orderDetails:String,address:String,price:Int,userID:ID!):Order
     deleteOrder(orderID:Int):Boolean
 }
